@@ -1,0 +1,22 @@
+Test 01: isEmpty() empty list return true: PASSED
+Test 02: empty list return size 0: PASSED
+Test 03: addBack can add to an empty list: PASSED
+Test 04: addBack can add to the right place: FAILED
+Test 05: addFront can add to the right place: PASSED
+Test 06: isEmpty() not empty list return false: FAILED
+Test 07: list can return right size: PASSED
+Test 08: removeFront can remove Front Node: FAILED
+Test 09: removeBack can remove Back Node: FAILED
+Test 10: search can find the value in list: PASSED
+Test 11: search a value are not in list can not find the value in list: PASSED
+
+1) isEmpty always returns true
+when i create an empty, and after i add a new node into list, it always returns true
+
+2) size returns m_size+1
+
+3) addBack adds the value in the front
+addBack is the same as front
+
+4) All remove function not work
+When i call those two function, nothing was removed
